@@ -42,5 +42,3 @@ This project applied MLP and GBDT machine learning methods to learn and predict 
 
   
 
-## Files Structure:
-

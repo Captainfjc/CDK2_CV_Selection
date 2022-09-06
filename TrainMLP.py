@@ -139,10 +139,6 @@ class TrainMLP:
             ax[1].set_xlabel("Epochs")
             ax[1].set_ylabel("loss")
             ax[1].set_ylim(0, 1)
-            if save_plots:
-                plt.savefig(save_path + 'Plots/acc_loss_' + str(i) + '.jpg',
-                            bbox_inches='tight')
-            plt.close()
 
             plt.plot(np.mean(a_drop, axis=1))
             plt.xlabel("Features")

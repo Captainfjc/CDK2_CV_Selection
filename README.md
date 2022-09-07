@@ -40,5 +40,15 @@ This project applied MLP and GBDT machine learning methods to learn and predict 
 
   **[TrainMLP.py:](TrainMLP.py)** This class can be used to train MLP models and save results to specific path.
 
-  
+
+## Usage:
+
+To use this code, you need to ensure that your device has a python environment and that some packages are installed. The versions of python and the packages used in this project are as follows (if you are using a different version, please refer to the relevant documentation for support)： 
+
+**python:** 3.9  
+**mdtraj:** 1.9.7  
+**tensorflow:** 2.8.0  
+**scikit-learn:** 1.0.2  
+**numpy:** 1.22.3  
+**matplotlib:** 3.5.1  
 

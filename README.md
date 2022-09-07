@@ -53,6 +53,6 @@ To use this code, you need to ensure that your device has a python environment a
 **matplotlib:** 3.5.1  
   
 If you need to generate data before training the model, call the [GenerateData](./GenerateData.py) class, which contains three methods: you can select the required set variables, generate the data and generate the corresponding labels respectively. Please use them as required.  
-Once you have the dataset, you can choose to train the model using the [TrainGBDT](./TrainGBDT.py) or [TrainMLP](./TrainMLP.py) classes. The training results are saved in a specified folder.  
+Once you have the dataset, you can choose to train the model using the [TrainGBDT](./TrainGBDT.py) or [TrainMLP](./TrainMLP.py) classes. The training results will be saved in the folder you specified.  
 Finally, you can refer to the code in the jupyter notebook in [Notebook_Results](./Notebook_Results) folder to analyse the results.
 
